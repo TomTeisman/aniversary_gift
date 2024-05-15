@@ -1,5 +1,7 @@
 :root {
-    --main-color: #ffe6e2;
+    --main-pink: #ffe6e2;
+    --main-green: #abddb6;
+    --main-red: #fb6376;
 }
 
 *,
@@ -14,7 +16,7 @@ body {
     padding: 0;
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
-    background-color: var(--main-color);
+    background-color: var(--main-pink);
     min-height: 100dvh;
     min-width: 100dvw;
 }
@@ -23,16 +25,23 @@ body {
     height: 100dvh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1.5fr 1fr;
+    grid-template-rows: .5fr 1.5fr 1fr;
     align-items: center;
     justify-content: center;
+    padding-block: 3.5rem;
 }
 
 .top-row,
+.middle-row,
 .bottom-row {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.bottom-row {
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 .image-wrapper {
@@ -47,4 +56,32 @@ body {
 .image-wrapper>img {
     height: 100%;
     width: 100%;
+}
+
+.description {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+}
+
+.buttons>button {
+    width: 150px;
+    padding: .5rem 1.75rem;
+    border: 1px solid #fefefe;
+    border-radius: 8px;
+    color: #010101;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.buttons>.next {
+    background-color: var(--main-green);
+}
+
+.buttons>.previous {
+    background-color: var(--main-red);
 }

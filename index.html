@@ -7,18 +7,25 @@
     <link rel="stylesheet" href="css/index.css">
     <script src="js/index.js"></script>
 </head>
-<body onload="nextPicture()">
+<body onload="initialPicture()">
     <div class="wrapper">
         <div class="top-row">
+            <h1 id="title">Begin</h1>
+        </div>
+
+        <div class="middle-row">
             <div id="photo-wrapper" class="image-wrapper">    
                 <img id="photo" src="" alt=""/>
             </div>
         </div>
+        
         <div class="bottom-row">
-            <p id="description"></p>
+            <p class="description" id="description"></p>
 
-            <button onclick="previousPicture()">Vorige</button>
-            <button onclick="nextPicture()">Volgende</button>
+            <div class="buttons">
+                <button class="previous" onclick="previousPicture()">Vorige</button>
+                <button class="next" onclick="nextPicture()">Volgende</button>
+            </div>
         </div>
     </div>
 </body>
