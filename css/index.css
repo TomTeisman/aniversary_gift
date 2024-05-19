@@ -60,6 +60,7 @@ body {
 
 .description {
     text-align: center;
+    max-width: 350px;
 }
 
 .buttons {
@@ -69,6 +70,7 @@ body {
 }
 
 .buttons>button {
+    cursor: pointer;
     width: 150px;
     padding: .5rem 1.75rem;
     border: 1px solid #fefefe;
