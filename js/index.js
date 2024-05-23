@@ -97,7 +97,7 @@ const chapters = [
                 src: "assets/02_momenten/park_2.jpg",
                 aspectRatio: "375 / 667"
             },
-            description: ""
+            description: "Nog meer park samen."
         },
         {
             title: "Onze momenten samen",
@@ -105,7 +105,7 @@ const chapters = [
                 src: "assets/02_momenten/bowlen.jpg",
                 aspectRatio: "375 / 667"
             },
-            description: "Onze bowl date, op deze dag hadden we ongeveer 1 maand en een week. Het was ook de dag van onze eerste keer. No regrets"
+            description: "Onze bowl date, op deze dag hadden we ongeveer 1 maand en een week. Het was ook de dag van onze eerste keer 👀. No regrets."
         },
         {
             title: "Onze momenten samen",
@@ -129,7 +129,7 @@ const chapters = [
                 src: "assets/02_momenten/vapiano.jpg",
                 aspectRatio: "375 / 667"
             },
-            description: ""
+            description: "Ons etentje bij de vapiano (of viapiano zoals ik het bleef noemen). Was wel erg lekker."
         },
         {
             title: "Onze momenten samen",
@@ -137,7 +137,7 @@ const chapters = [
                 src: "assets/02_momenten/rik.jpg",
                 aspectRatio: "375 / 667"
             },
-            description: ""
+            description: "Het feestje bij Rik, dezelfde dag waarop ik mijn zwarte band behaald had. Ik was echt heel blij met je support die dag.<br>Later die avond waren de rollen omgedraaid maar daar hebben we het maar niet meer over."
         },
         {
             title: "Onze momenten samen",
@@ -145,7 +145,7 @@ const chapters = [
                 src: "assets/02_momenten/carnaval.jpg",
                 aspectRatio: "3 / 4"
             },
-            description: ""
+            description: "Onze eerste carnaval samen was misschien maar kort maar ik heb er wel van genoten. Je was echt de schattigste muis die ik ooit heb gezien :)."
         },
         {
             title: "Onze momenten samen",
@@ -153,7 +153,7 @@ const chapters = [
                 src: "assets/02_momenten/efteling.jpg",
                 aspectRatio: "9 / 16"
             },
-            description: ""
+            description: "De Efteling met Arvid en Imke laatst was ook leuk. Ik weet dat jij in wat minder attracties ging maar ik vond het echt heel leuk om samen met je in de droomvlucht te gaan. Ik merkte dat ik het echt nodig had om weer even tijd met jou te spenderen die dag."
         }
     ],
 
@@ -169,42 +169,42 @@ const chapters = [
         {
             title: "Hoe blij je me maakt",
             image: {
-                src: "",
-                aspectRatio: ""
+                src: "assets/03_blij/glowgolf.jpg",
+                aspectRatio: "375 / 667"
             },
-            description: ""
+            description: "Toen ik deze foto's aan het bekijken was viel een ding me steeds op."
         },
         {
             title: "Hoe blij je me maakt",
             image: {
-                src: "",
-                aspectRatio: ""
+                src: "assets/03_blij/kermis.jpg",
+                aspectRatio: "375 / 667"
             },
-            description: ""
+            description: "Bij heel veel van onze foto's samen heb ik de grootste lach die ik zie bij mijzelf."
         },
         {
             title: "Hoe blij je me maakt",
             image: {
-                src: "",
-                aspectRatio: ""
+                src: "assets/03_blij/vapiano.jpg",
+                aspectRatio: "375 / 667"
             },
-            description: ""
+            description: "Ik heb hier maar een paar snelle voorbeelden gepakt, want lang hoefde ik niet te zoeken en het waren er teveel om ze er allemaal in te stoppen."
         },
         {
             title: "Hoe blij je me maakt",
             image: {
-                src: "",
-                aspectRatio: ""
+                src: "assets/03_blij/wedstrijd.jpg",
+                aspectRatio: "9 / 16"
             },
-            description: ""
+            description: "Dat is hoe blij je mij maakt. Iedere dag weer."
         },
         {
             title: "Hoe blij je me maakt",
             image: {
-                src: "",
-                aspectRatio: ""
+                src: "assets/03_blij/efteling.jpg",
+                aspectRatio: "9 / 16"
             },
-            description: ""
+            description: "I love you <3"
         }
     ]
 ];
@@ -228,6 +228,9 @@ function nextPicture() {
         i++;
     }
 
+    if (chapter === 3) {
+        location.href = "final.html";
+    }
 
     document.getElementById("photo").src = chapters[chapter][i].image.src;
     document.getElementById("photo-wrapper").style.aspectRatio = chapters[chapter][i].image.aspectRatio;
