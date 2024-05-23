@@ -81,7 +81,7 @@ const chapters = [
                 src: "assets/02_momenten/park_1.jpg",
                 aspectRatio: "375 / 667"
             },
-            description: "Deze foto is al heel lang eem vam mijn favorieten, hij was gemaakt op 13 juni 2023 (denk ik 🙃). Toen hadden we 2 weken. We lagen samen op de berg naar muziek te luisteren en ik weet nog heel goed dat ik steeds terug keek en dacht aan hoe mooi je bent."
+            description: "Deze foto is al heel lang een van mijn favorieten, hij was gemaakt op 13 juni 2023 (denk ik 🙃). Toen hadden we 2 weken. We lagen samen op de berg naar muziek te luisteren en ik weet nog heel goed dat ik steeds terug keek en dacht aan hoe mooi je bent."
         },
         {
             title: "Onze momenten samen",
@@ -89,7 +89,7 @@ const chapters = [
                 src: "assets/02_momenten/park_3.jpg",
                 aspectRatio: "725 / 1334"
             },
-            description: ""
+            description: "Dit was een insta verhaal wat je gemaakt had op mn telefoon toen we samen op de berg zaten."
         },
         {
             title: "Onze momenten samen",
@@ -105,7 +105,7 @@ const chapters = [
                 src: "assets/02_momenten/bowlen.jpg",
                 aspectRatio: "375 / 667"
             },
-            description: ""
+            description: "Onze bowl date, op deze dag hadden we ongeveer 1 maand en een week. Het was ook de dag van onze eerste keer. No regrets"
         },
         {
             title: "Onze momenten samen",
@@ -113,7 +113,7 @@ const chapters = [
                 src: "assets/02_momenten/glowgolf.jpg",
                 aspectRatio: "375 / 667"
             },
-            description: ""
+            description: "Weer ongeveer een maand en een week later gingen we glowgolfen, daar heb ik mooi geleerd hoe jij me daarbij gigantisch verpletterd. Vond het wel heel erg leuk tho."
         },
         {
             title: "Onze momenten samen",
@@ -121,7 +121,7 @@ const chapters = [
                 src: "assets/02_momenten/kermis.jpg",
                 aspectRatio: "375 / 667"
             },
-            description: ""
+            description: "Onze kermis dates waren ook erg leuk. Samen met andere mensen of gewoon met zn tweëen. In ieder geval gewoon wij twee."
         },
         {
             title: "Onze momenten samen",
@@ -143,7 +143,7 @@ const chapters = [
             title: "Onze momenten samen",
             image: {
                 src: "assets/02_momenten/carnaval.jpg",
-                aspectRatio: "375 / 667"
+                aspectRatio: "3 / 4"
             },
             description: ""
         },
@@ -151,7 +151,7 @@ const chapters = [
             title: "Onze momenten samen",
             image: {
                 src: "assets/02_momenten/efteling.jpg",
-                aspectRatio: "375 / 667"
+                aspectRatio: "9 / 16"
             },
             description: ""
         }
